@@ -14,9 +14,13 @@ sub Moose::Meta::Attribute::Custom::Trait::Copy::register_implementation { __PAC
 sub clone_value {
     my ( $self, $target, $proto, %args ) = @_;
 
+    if (exists $args{init_arg}) {
+        return $self->set_value( $target, $args{init_arg} );
+    }
+
     return unless $self->has_value($proto);
 
-    my $clone = exists $args{init_arg} ? $args{init_arg} : $self->_copy_ref($self->get_value($proto));
+    my $clone = $self->_copy_ref($self->get_value($proto));
 
     $self->set_value( $target, $clone );
 }
