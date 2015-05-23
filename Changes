@@ -1,6 +1,7 @@
 Revision history for MooseX-Clone
 
 {{ $NEXT }}
+    - fix typo in package name (RT#55003)
 
 0.05    2010-01-13
     - Fix cloning for attrs when init_arg is passed under Clone trait
