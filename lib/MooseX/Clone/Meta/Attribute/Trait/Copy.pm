@@ -1,6 +1,9 @@
 #!/usr/bin/perl
 
 package MooseX::Clone::Meta::Attribute::Trait::Copy;
+
+our $VERSION = '0.06';
+
 use Moose::Role;
 
 use Carp qw(croak);

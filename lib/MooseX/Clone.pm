@@ -1,9 +1,10 @@
 #!/usr/bin/perl
 
 package MooseX::Clone;
-use Moose::Role;
 
-our $VERSION = "0.05";
+our $VERSION = '0.06';
+
+use Moose::Role;
 
 use Hash::Util::FieldHash::Compat qw(idhash);
 

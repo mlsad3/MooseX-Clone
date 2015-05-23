@@ -1,4 +1,7 @@
 package MooseX::Clone::Meta::Attribute::Trait::Clone::Std;
+
+our $VERSION = '0.06';
+
 use Moose::Role;
 
 use namespace::clean -except => 'meta';
