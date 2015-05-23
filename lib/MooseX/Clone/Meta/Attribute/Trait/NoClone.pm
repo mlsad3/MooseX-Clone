@@ -5,8 +5,7 @@ package MooseX::Clone::Meta::Attribute::Trait::NoClone;
 our $VERSION = '0.06';
 
 use Moose::Role;
-
-use namespace::clean -except => [qw(meta)];
+use namespace::autoclean;
 
 with qw(MooseX::Clone::Meta::Attribute::Trait::Clone::Base);
 

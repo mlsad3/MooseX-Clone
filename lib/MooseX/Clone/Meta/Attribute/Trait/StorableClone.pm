@@ -5,10 +5,8 @@ package MooseX::Clone::Meta::Attribute::Trait::StrableClone;
 our $VERSION = '0.06';
 
 use Moose::Role;
-
 use Carp qw(croak);
-
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 with qw(MooseX::Clone::Meta::Attribute::Trait::Clone::Std);
 
