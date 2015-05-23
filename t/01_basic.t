@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-use Test::More 'no_plan';
+use Test::More 0.88;
 
 use Scalar::Util qw(refaddr);
 
@@ -121,3 +121,5 @@ is( $copy->clone( foo => { some_attr => "laaa" } )->foo->some_attr, "laaa", "Val
     isnt( refaddr($foo), refaddr($foo_copy), "foo copied" );
     is( $foo_copy->copy_number, $foo->copy_number, "but not using ->clone");
 }
+
+done_testing;
