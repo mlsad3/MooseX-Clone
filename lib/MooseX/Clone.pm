@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 package MooseX::Clone;
 
 our $VERSION = '0.06';

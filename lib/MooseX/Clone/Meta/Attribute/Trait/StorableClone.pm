@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 package MooseX::Clone::Meta::Attribute::Trait::StrableClone;
 
 our $VERSION = '0.06';
