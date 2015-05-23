@@ -1,4 +1,5 @@
 package MooseX::Clone::Meta::Attribute::Trait::StrableClone;
+# ABSTRACT: The attribute trait for deeply cloning attributes using Storable
 
 our $VERSION = '0.06';
 
@@ -26,13 +27,6 @@ __PACKAGE__
 __END__
 
 =pod
-
-=encoding utf8
-
-=head1 NAME
-
-MooseX::Clone::Meta::Attribute::Trait::StorableClone - The L<Moose::Meta::Attribute>
-trait for deeply cloning attributes using L<Storable>.
 
 =head1 SYNOPSIS
 

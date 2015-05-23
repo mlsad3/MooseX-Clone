@@ -1,4 +1,5 @@
 package MooseX::Clone;
+# ABSTRACT: Fine-grained cloning support for Moose objects.
 
 our $VERSION = '0.06';
 
@@ -59,10 +60,6 @@ __PACKAGE__
 __END__
 
 =pod
-
-=head1 NAME
-
-MooseX::Clone - Fine grained cloning support for L<Moose> objects.
 
 =head1 SYNOPSIS
 
@@ -157,19 +154,5 @@ will still do the right thing.
 =head1 THANKS
 
 clkao made the food required to write this module
-
-=head1 VERSION CONTROL
-
-L<http://code2.0beta.co.uk/moose/svn/>. Ask on #moose for commit bits.
-
-=head1 AUTHOR
-
-Yuval Kogman E<lt>nothingmuch@woobling.orgE<gt>
-
-=head1 COPYRIGHT
-
-    Copyright (c) 2008 Yuval Kogman. All rights reserved
-    This program is free software; you can redistribute
-    it and/or modify it under the same terms as Perl itself.
 
 =cut

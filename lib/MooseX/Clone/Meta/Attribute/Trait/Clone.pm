@@ -1,4 +1,5 @@
 package MooseX::Clone::Meta::Attribute::Trait::Clone;
+# ABSTRACT: The attribute trait for deeply cloning attributes
 
 our $VERSION = '0.06';
 
@@ -112,13 +113,6 @@ __PACKAGE__
 __END__
 
 =pod
-
-=encoding utf8
-
-=head1 NAME
-
-MooseX::Clone::Meta::Attribute::Trait::Clone - The L<Moose::Meta::Attribute>
-trait for deeply cloning attributes.
 
 =head1 SYNOPSIS
 

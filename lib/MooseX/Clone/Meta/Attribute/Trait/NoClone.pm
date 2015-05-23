@@ -1,4 +1,5 @@
 package MooseX::Clone::Meta::Attribute::Trait::NoClone;
+# ABSTRACT: A trait for attributes that should not be copied while cloning
 
 our $VERSION = '0.06';
 
@@ -32,11 +33,6 @@ __END__
 
 =pod
 
-=head1 NAME
-
-MooseX::Clone::Meta::Attribute::Trait::NoClone - A trait for attrs that should
-not be copied while cloning.
-
 =head1 SYNOPSIS
 
     with qw(MooseX::Clone);
@@ -65,5 +61,3 @@ Otherwise calls C<clear_value> and C<initialize_instance_slot>.
 =back
 
 =cut
-
-

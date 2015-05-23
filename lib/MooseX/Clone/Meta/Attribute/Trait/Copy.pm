@@ -1,4 +1,5 @@
 package MooseX::Clone::Meta::Attribute::Trait::Copy;
+# ABSTRACT: Simple copying of arrays and hashes for MooseX::Clone
 
 our $VERSION = '0.06';
 
@@ -40,11 +41,6 @@ __END__
 
 =pod
 
-=head1 NAME
-
-MooseX::Clone::Meta::Attribute::Trait::Copy - Simple copying of arrays and
-hashes for L<MooseX::Clone>
-
 =head1 SYNOPSIS
 
     has foo => (
@@ -61,5 +57,3 @@ This is both simpler and faster when you don't need a real deep copy of the
 entire structure, and probably more correct.
 
 =cut
-
-
