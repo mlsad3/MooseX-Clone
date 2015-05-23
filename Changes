@@ -1,3 +1,7 @@
+Revision history for MooseX-Clone
+
+{{ $NEXT }}
+
 0.05
     - Fix cloning for attrs when init_arg is passed under Clone trait
     - auto_deref related fixes (Evan Carroll)
