@@ -5,6 +5,7 @@ our $VERSION = '0.06';
 
 use Moose::Role;
 use Carp qw(croak);
+use Data::Visitor 0.24 ();
 use namespace::autoclean;
 
 with qw(MooseX::Clone::Meta::Attribute::Trait::Clone::Base);
