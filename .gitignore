@@ -1,0 +1,6 @@
+/.ackrc
+/.build/
+!/.gitignore
+/.latest
+/MooseX-Clone-*/
+/MooseX-Clone-*.tar.gz
