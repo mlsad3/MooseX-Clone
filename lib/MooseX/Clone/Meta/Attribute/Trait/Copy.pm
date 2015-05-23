@@ -1,7 +1,7 @@
 package MooseX::Clone::Meta::Attribute::Trait::Copy;
 # ABSTRACT: Simple copying of arrays and hashes for MooseX::Clone
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 use Moose::Role;
 use Carp qw(croak);

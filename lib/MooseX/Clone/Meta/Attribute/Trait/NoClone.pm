@@ -1,7 +1,7 @@
 package MooseX::Clone::Meta::Attribute::Trait::NoClone;
 # ABSTRACT: A trait for attributes that should not be copied while cloning
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 use Moose::Role;
 use namespace::autoclean;

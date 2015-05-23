@@ -1,7 +1,7 @@
 package MooseX::Clone::Meta::Attribute::Trait::Clone;
 # ABSTRACT: The attribute trait for deeply cloning attributes
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 use Moose::Role;
 use Carp qw(croak);
